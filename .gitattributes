@@ -1,0 +1,8 @@
+# 告诉github linguist：*.m 文件属于Matnn，不是Wolfram
+*.m linguist-language=Matnn
+# 如果你有别的后缀，一并写
+*.mt linguist-language=Matnn
+
+# 排除不想参与语言统计的文件/文件夹
+doc/** linguist-documentation
+example/** linguist-documentation

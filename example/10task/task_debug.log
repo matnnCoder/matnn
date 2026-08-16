@@ -1,0 +1,72 @@
+callStaticMethod: method=new args.size=1 tid=15729502191765196471
+Task.new: taskObj=000002d1606fe550 funcType=5 isFunc=1 tid=15729502191765196471
+callInstanceMethod: method=bind args.size=2 this=000002d1606fe550 tid=15729502191765196471
+Task.bind: key=getResult this=000002d1606fe550 tid=15729502191765196471
+callInstanceMethod: method=start args.size=0 this=000002d1606fe550 tid=15729502191765196471
+Task.start: this=000002d1606fe550 tid=15729502191765196471
+startTask: task=000002d1606fe550 alive=1 tid=15729502191765196471
+TaskScopeGuard: set currentTask=000002d1606fe550 tid=8670141377090704656
+callStaticMethod: method=wait args.size=1 tid=15729502191765196471
+executeTaskWithParams: taskInstance=000002d1606fe550 tid=8670141377090704656 handleId=task_1785300046074_0
+callStaticMethod: method=call args.size=1 tid=8670141377090704656
+enqueueRequest: method=getResult alive=1 this=000002d1606fe550
+~TaskScopeGuard: restoring currentTask=0000000000000000 tid=8670141377090704656
+callStaticMethod: method=new args.size=1 tid=15729502191765196471
+Task.new: taskObj=000002d1606fdf10 funcType=5 isFunc=1 tid=15729502191765196471
+callInstanceMethod: method=bind args.size=2 this=000002d1606fdf10 tid=15729502191765196471
+Task.bind: key=addMessage this=000002d1606fdf10 tid=15729502191765196471
+callInstanceMethod: method=start args.size=0 this=000002d1606fdf10 tid=15729502191765196471
+Task.start: this=000002d1606fdf10 tid=15729502191765196471
+startTask: task=000002d1606fdf10 alive=1 tid=15729502191765196471
+callStaticMethod: method=wait args.size=1 tid=15729502191765196471
+TaskScopeGuard: set currentTask=000002d1606fdf10 tid=1230235464250880600
+executeTaskWithParams: taskInstance=000002d1606fdf10 tid=1230235464250880600 handleId=task_1785300046648_1
+callStaticMethod: method=post args.size=2 tid=1230235464250880600
+Task.post: method=addMessage task=000002d1606fdf10 tid=1230235464250880600 args.size=1
+enqueueRequest: method=addMessage alive=1 this=000002d1606fdf10
+callStaticMethod: method=post args.size=2 tid=1230235464250880600
+Task.post: method=addMessage task=000002d1606fdf10 tid=1230235464250880600 args.size=1
+enqueueRequest: method=addMessage alive=1 this=000002d1606fdf10
+callStaticMethod: method=post args.size=2 tid=1230235464250880600
+Task.post: method=addMessage task=000002d1606fdf10 tid=1230235464250880600 args.size=1
+enqueueRequest: method=addMessage alive=1 this=000002d1606fdf10
+callStaticMethod: method=post args.size=2 tid=1230235464250880600
+Task.post: method=addMessage task=000002d1606fdf10 tid=1230235464250880600 args.size=1
+enqueueRequest: method=addMessage alive=1 this=000002d1606fdf10
+callStaticMethod: method=post args.size=2 tid=1230235464250880600
+Task.post: method=addMessage task=000002d1606fdf10 tid=1230235464250880600 args.size=1
+enqueueRequest: method=addMessage alive=1 this=000002d1606fdf10
+~TaskScopeGuard: restoring currentTask=0000000000000000 tid=1230235464250880600
+callStaticMethod: method=new args.size=1 tid=15729502191765196471
+Task.new: taskObj=000002839e129e50 funcType=5 isFunc=1 tid=15729502191765196471
+callInstanceMethod: method=start args.size=0 this=000002839e129e50 tid=15729502191765196471
+Task.start: this=000002839e129e50 tid=15729502191765196471
+startTask: task=000002839e129e50 alive=1 tid=15729502191765196471
+callStaticMethod: method=wait args.size=1 tid=15729502191765196471
+TaskScopeGuard: set currentTask=000002839e129e50 tid=18137369640724998020
+executeTaskWithParams: taskInstance=000002839e129e50 tid=18137369640724998020 handleId=task_1785306476193_0
+callStaticMethod: method=getName args.size=0 tid=18137369640724998020
+~TaskScopeGuard: restoring currentTask=0000000000000000 tid=18137369640724998020
+callStaticMethod: method=getName args.size=0 tid=15729502191765196471
+callStaticMethod: method=new args.size=1 tid=15729502191765196471
+Task.new: taskObj=000001707ae63e90 funcType=5 isFunc=1 tid=15729502191765196471
+callInstanceMethod: method=start args.size=0 this=000001707ae63e90 tid=15729502191765196471
+Task.start: this=000001707ae63e90 tid=15729502191765196471
+startTask: task=000001707ae63e90 alive=1 tid=15729502191765196471
+TaskScopeGuard: set currentTask=000001707ae63e90 tid=18137369640724998020
+callStaticMethod: method=wait args.size=1 tid=15729502191765196471
+executeTaskWithParams: taskInstance=000001707ae63e90 tid=18137369640724998020 handleId=task_1785306581723_0
+callStaticMethod: method=getName args.size=0 tid=18137369640724998020
+~TaskScopeGuard: restoring currentTask=0000000000000000 tid=18137369640724998020
+callStaticMethod: method=getName args.size=0 tid=15729502191765196471
+callStaticMethod: method=new args.size=1 tid=15729502191765196471
+Task.new: taskObj=000001612c3db9f0 funcType=5 isFunc=1 tid=15729502191765196471
+callInstanceMethod: method=start args.size=0 this=000001612c3db9f0 tid=15729502191765196471
+Task.start: this=000001612c3db9f0 tid=15729502191765196471
+startTask: task=000001612c3db9f0 alive=1 tid=15729502191765196471
+callStaticMethod: method=wait args.size=1 tid=15729502191765196471
+TaskScopeGuard: set currentTask=000001612c3db9f0 tid=18137369640724998020
+executeTaskWithParams: taskInstance=000001612c3db9f0 tid=18137369640724998020 handleId=task_1785306609326_0
+callStaticMethod: method=getName args.size=0 tid=18137369640724998020
+~TaskScopeGuard: restoring currentTask=0000000000000000 tid=18137369640724998020
+callStaticMethod: method=getName args.size=0 tid=15729502191765196471

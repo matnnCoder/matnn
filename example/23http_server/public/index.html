@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matnn — 异步编程语言</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="hero">
+            <div class="logo">
+                <span class="logo-icon">◆</span>
+                <span class="logo-text">Matnn</span>
+            </div>
+            <h1>欢迎来到 Matnn</h1>
+            <p class="tagline">一门天然异步的现代化编程语言</p>
+        </header>
+
+        <main>
+            <section class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>天然异步</h3>
+                    <p>所有 IO 操作默认异步执行，通过 TaskHandler 统一管理任务生命周期。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔀</div>
+                    <h3>串行 / 并行</h3>
+                    <p>支持任务并行执行，需要串行时使用 <code>Task.wait()</code> 即可阻塞等待。</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3>内置 HTTP 服务</h3>
+                    <p>原生支持 HTTP 客户端与服务端，静态文件托管、路由注册开箱即用。</p>
+                </div>
+            </section>
+
+            <section class="code-section">
+                <h2>代码示例</h2>
+                <div class="code-block">
+<pre><code>// 创建 HTTP 服务器
+var server = HttpServer.new();
+server.static("/public", "./public");
+server.start(8080, "127.0.0.1");
+
+// 等待启动完成
+Task.wait(server.start(8080));</code></pre>
+                </div>
+            </section>
+
+            <section class="status-section">
+                <div class="status-card">
+                    <span class="status-label">服务器运行时间</span>
+                    <span class="status-value" id="uptime">--</span>
+                </div>
+                <div class="status-card">
+                    <span class="status-label">当前时间</span>
+                    <span class="status-value" id="clock">--</span>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Powered by Matnn Virtual Machine</p>
+            <p class="footer-sub">静态文件服务已就绪 · Ready to serve</p>
+        </footer>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

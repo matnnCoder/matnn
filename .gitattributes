@@ -1,10 +1,11 @@
-# *.m *.mt 是matnn脚本，不要识别为Wolfram
-*.m linguist-language=C++
-*.mt linguist-language=C++
+# matnn脚本，属于示例脚本，不计入代码语言统计
+*.mt linguist-documentation
+*.m linguist-documentation
 
-# 文档、示例不参与代码语言统计
+# doc、example整个目录标记文档
 doc/** linguist-documentation
 example/** linguist-documentation
 
-# 排除二进制exe，不参与语言统计
+# exe二进制排除统计
 *.exe linguist-vendored
+*.dll linguist-vendored

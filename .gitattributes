@@ -1,8 +1,10 @@
-# 告诉github linguist：*.m 文件属于Matnn，不是Wolfram
-*.m linguist-language=Matnn
-# 如果你有别的后缀，一并写
-*.mt linguist-language=Matnn
+# *.m *.mt 是matnn脚本，不要识别为Wolfram
+*.m linguist-language=C++
+*.mt linguist-language=C++
 
-# 排除不想参与语言统计的文件/文件夹
+# 文档、示例不参与代码语言统计
 doc/** linguist-documentation
 example/** linguist-documentation
+
+# 排除二进制exe，不参与语言统计
+*.exe linguist-vendored
